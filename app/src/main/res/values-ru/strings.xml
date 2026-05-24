@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cipher</string>
+    <string name="cipher_subtitle">СОЦИАЛЬНАЯ ДЕДУКЦИЯ</string>
+
+    <!-- Home Screen -->
+    <string name="create_room">Создать комнату</string>
+    <string name="join_room">Присоединиться</string>
+    <string name="how_to_play">Как играть</string>
+    <string name="settings">Настройки</string>
+    <string name="profile">Профиль</string>
+
+    <!-- Profile Screen -->
+    <string name="nickname">Никнейм</string>
+    <string name="nickname_hint">Введите никнейм</string>
+    <string name="save_profile">Сохранить</string>
+    <string name="select_avatar">Выберите аватар</string>
+    <string name="profile_saved">Профиль сохранён</string>
+    <string name="nickname_too_long">Никнейм не более 20 символов</string>
+    <string name="nickname_empty">Введите никнейм</string>
+
+    <!-- Create Room Screen -->
+    <string name="game_rules">Правила игры</string>
+    <string name="words_roles">Слова и роли</string>
+    <string name="timer_duration">Длительность таймера</string>
+    <string name="timer_minutes">%d мин</string>
+    <string name="win_conditions">Условия победы</string>
+    <string name="spy_wins_hiding">Шпион побеждает, оставшись незамеченным</string>
+    <string name="spy_wins_guessing">Шпион побеждает, угадав локацию</string>
+    <string name="number_of_spies">Количество шпионов</string>
+    <string name="word_pack">Набор слов</string>
+    <string name="custom_words">Свои слова</string>
+    <string name="custom_words_hint">Введите локации через запятую</string>
+    <string name="custom_roles">Свои роли</string>
+    <string name="role_name">Название роли</string>
+    <string name="role_description">Описание</string>
+    <string name="is_spy">Шпион?</string>
+    <string name="role_count">Кол-во</string>
+    <string name="add_role">Добавить роль</string>
+    <string name="remove_role">Удалить</string>
+    <string name="create_game">Создать комнату</string>
+    <string name="locations_pack">Локации</string>
+    <string name="food_drink_pack">Еда и напитки</string>
+    <string name="sports_pack">Спорт</string>
+    <string name="movies_pack">Фильмы</string>
+    <string name="custom_pack">Свой набор</string>
+    <string name="room_create_failed">Не удалось создать комнату. Проверьте WiFi.</string>
+
+    <!-- Lobby Screen -->
+    <string name="room_code">Код комнаты</string>
+    <string name="scan_to_join">Сканируйте QR для входа</string>
+    <string name="players_joined">Игроки (%d)</string>
+    <string name="start_game">Начать игру</string>
+    <string name="min_players_warning">Нужно минимум 3 игрока</string>
+    <string name="waiting_for_host">Ожидание хоста…</string>
+    <string name="waiting_for_players">Ожидание игроков</string>
+    <string name="copy_code">Скопировать</string>
+    <string name="code_copied">Код скопирован</string>
+    <string name="host_badge">ХОСТ</string>
+    <string name="you_badge">ВЫ</string>
+    <string name="kick_player">Удалить игрока</string>
+    <string name="kick_confirm">Удалить %s из комнаты?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Join Room Screen -->
+    <string name="enter_code">Ввести код</string>
+    <string name="scan_qr">Сканировать QR</string>
+    <string name="enter_room_code">Введите 6-значный код</string>
+    <string name="joining_room">Подключение…</string>
+    <string name="room_not_found">Комната не найдена</string>
+    <string name="connection_failed">Ошибка подключения. Проверьте WiFi.</string>
+    <string name="camera_permission_needed">Нужно разрешение камеры для сканирования QR</string>
+    <string name="grant_permission">Дать разрешение</string>
+    <string name="open_settings">Открыть настройки</string>
+
+    <!-- Role Reveal Screen -->
+    <string name="tap_to_reveal">НАЖМИТЕ, ЧТОБЫ РАСКРЫТЬ</string>
+    <string name="classified">СЕКРЕТНО</string>
+    <string name="your_role">Ваша роль</string>
+    <string name="location">Локация</string>
+    <string name="location_unknown">\?\?\?</string>
+    <string name="seen_my_role">Я увидел свою роль</string>
+    <string name="ready_count">Готовы: %1$d / %2$d</string>
+    <string name="pass_to_player">Передайте телефон</string>
+    <string name="im_ready">Я готов</string>
+    <string name="done_passing">Готово, передаю телефон</string>
+    <string name="all_roles_revealed">Все роли раскрыты</string>
+
+    <!-- Pass-the-Phone Reveal -->
+    <string name="reveal_header">РАУНД %1$d · РАСКРЫТИЕ РОЛЕЙ</string>
+    <string name="hand_off_to">Передайте телефон игроку %1$s</string>
+    <string name="hand_off_warning">Убедитесь, что только %1$s смотрит на экран, прежде чем нажать «Готов».</string>
+    <string name="hand_off_self">Ваша очередь — посмотрите на экран в одиночку и нажмите «Готов».</string>
+    <string name="im_alone_ready">Я готов</string>
+    <string name="player_progress">Игрок %1$d из %2$d</string>
+    <string name="waiting_for_roles">Ожидание раздачи ролей</string>
+    <string name="waiting_for_roles_subtitle">Хост передаёт телефон каждому игроку.</string>
+    <string name="reveal_progress_count">Готовы %1$d из %2$d</string>
+    <string name="your_role_label">ВАША РОЛЬ</string>
+    <string name="secret_location">СЕКРЕТНАЯ ЛОКАЦИЯ</string>
+    <string name="remember_location">Запомните. Не произносите вслух.</string>
+    <string name="your_mission">ВАША ЗАДАЧА</string>
+    <string name="spy_mission_text">Узнайте локацию, не выдав, что вы Шпион</string>
+    <string name="spy_mission_subtext">Задавайте вопросы. Сливайтесь. Не доверяйте никому.</string>
+    <string name="do_not_show">Не показывайте этот экран другим игрокам.</string>
+    <string name="seen_my_role_countdown">Я увидел свою роль (%1$d)</string>
+    <string name="player_is_ready">%1$s готов</string>
+    <string name="pass_phone_to_next">Передайте телефон следующему игроку</string>
+    <string name="all_players_ready">Все игроки готовы!</string>
+    <string name="all_agents_briefed">Все агенты проинструктированы</string>
+    <string name="all_briefed_subtitle">Все игроки получили свои роли. Хост может начать миссию.</string>
+    <string name="begin_mission">Начать миссию</string>
+    <string name="hidden_question_marks">\? \? \? \? \? \?</string>
+
+    <!-- Game Screen -->
+    <string name="round_number">Раунд %d</string>
+    <string name="call_vote">Голосование</string>
+    <string name="pause_timer">Пауза</string>
+    <string name="resume_timer">Продолжить</string>
+    <string name="end_round">Завершить раунд</string>
+    <string name="time_remaining">Оставшееся время</string>
+    <string name="eliminated">Выбыл</string>
+
+    <!-- Voting Screen -->
+    <string name="voting_phase">ГОЛОСОВАНИЕ</string>
+    <string name="select_suspect">Выберите подозреваемого</string>
+    <string name="confirm_vote">Подтвердить</string>
+    <string name="votes_label">Голоса: %d</string>
+    <string name="waiting_for_votes">Ожидание голосов…</string>
+    <string name="vote_timeout">Время вышло — подсчёт голосов</string>
+    <string name="no_elimination">Ничья. Никто не выбывает.</string>
+
+    <!-- Round Result Screen -->
+    <string name="spy_was">ШПИОН БЫЛ</string>
+    <string name="spy_escaped">Шпион сбежал</string>
+    <string name="the_location_was">Секретная локация была</string>
+    <string name="players_win">ИГРОКИ ПОБЕДИЛИ</string>
+    <string name="spy_wins">ШПИОН ПОБЕДИЛ</string>
+    <string name="spy_last_chance">Последний шанс шпиона</string>
+    <string name="guess_location">Угадайте локацию, чтобы победить</string>
+    <string name="correct_guess">Верно. Шпион побеждает</string>
+    <string name="wrong_guess">Неверно</string>
+    <string name="next_round">Следующий раунд</string>
+    <string name="back_to_lobby">В лобби</string>
+    <string name="end_game">Завершить игру</string>
+    <string name="points_earned">+%d очков</string>
+
+    <!-- Scoreboard Screen -->
+    <string name="scoreboard">Таблица</string>
+    <string name="rank">Место</string>
+    <string name="player_name">Игрок</string>
+    <string name="score">Очки</string>
+    <string name="round_history">История раундов</string>
+    <string name="play_again">Играть снова</string>
+    <string name="new_game">Новая игра</string>
+
+    <!-- How to Play -->
+    <string name="how_to_hero_tagline">Разгадайте правила. Обманите друзей.</string>
+    <string name="how_to_section_game">Как играть</string>
+    <string name="how_to_section_create_join">Как создать или войти в комнату</string>
+    <string name="how_to_section_create">Создать комнату</string>
+    <string name="how_to_section_join">Войти в комнату</string>
+
+    <string name="play_step_1_title">Роли распределены</string>
+    <string name="play_step_1_desc">В каждом раунде роли раздаются тайно. Агенты видят локацию. Шпион не видит ничего.</string>
+    <string name="play_step_2_title">Начинается обсуждение</string>
+    <string name="play_step_2_desc">Игроки задают друг другу вопросы. Будьте достаточно расплывчаты, но докажите, что вы знаете.</string>
+    <string name="play_step_3_title">Объявите голосование</string>
+    <string name="play_step_3_desc">Любой игрок может объявить голосование. Обвинённый выбывает, его роль раскрывается.</string>
+    <string name="play_step_4_title">Ход шпиона</string>
+    <string name="play_step_4_desc">Если шпион остался скрыт или угадал локацию — он побеждает.</string>
+    <string name="play_step_5_title">Поймать шпиона</string>
+    <string name="play_step_5_desc">Если агенты находят шпиона до конца таймера — игроки побеждают.</string>
+
+    <string name="create_step_1_title">Установите никнейм</string>
+    <string name="create_step_1_desc">Выберите, как вас увидят другие в лобби.</string>
+    <string name="create_step_2_title">Настройте игру</string>
+    <string name="create_step_2_desc">Таймер, условия и набор слов — всё в ваших руках.</string>
+    <string name="create_step_3_title">Поделитесь кодом или QR</string>
+    <string name="create_step_3_desc">Передайте 6-значный код или QR друзьям. Они подключатся через WiFi.</string>
+    <string name="create_step_4_title">Дождитесь игроков</string>
+    <string name="create_step_4_desc">Игроки появятся в лобби. Минимум трое для старта.</string>
+    <string name="create_step_5_title">Начните игру</string>
+    <string name="create_step_5_desc">Когда команда готова — запускайте.</string>
+
+    <string name="join_step_1_title">Установите никнейм</string>
+    <string name="join_step_1_desc">Выберите позывной перед операцией.</string>
+    <string name="join_step_2_title">Введите код или сканируйте QR</string>
+    <string name="join_step_2_desc">Введите 6-значный код или отсканируйте QR хоста.</string>
+    <string name="join_step_3_title">Ждите в лобби</string>
+    <string name="join_step_3_desc">Вы увидите подключённых игроков. Хост начинает игру.</string>
+    <string name="join_step_4_title">Игра начнётся сама</string>
+    <string name="join_step_4_desc">Как только хост запустит раунд — вы в игре.</string>
+
+    <!-- Settings Screen -->
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="light_theme">Светлая тема</string>
+    <string name="theme">Тема</string>
+    <string name="sound_effects">Звуковые эффекты</string>
+    <string name="language">Язык</string>
+    <string name="app_version">Версия приложения</string>
+    <string name="version_format">Версия %s</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_uzbek">O\'zbek</string>
+
+    <!-- Errors -->
+    <string name="player_disconnected">%s покинул игру</string>
+    <string name="host_disconnected">Хост вышел — игра завершена</string>
+    <string name="return_home">На главную</string>
+    <string name="no_wifi">Подключитесь к WiFi для игры</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="generic_error">Что-то пошло не так</string>
+    <string name="min_3_players">Нужно минимум 3 игрока</string>
+
+    <!-- Roles -->
+    <string name="role_spy">Шпион</string>
+    <string name="role_spy_desc">Вы не знаете локацию. Не выдайте себя.</string>
+    <string name="role_agent">Агент</string>
+    <string name="role_agent_desc">Вы знаете локацию. Найдите шпиона.</string>
+    <string name="role_new">Новая роль</string>
+    <string name="custom_pack_name">Свой</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode">Офлайн-режим</string>
+    <string name="offline_setup_title">Офлайн-режим</string>
+    <string name="offline_players">Игроки</string>
+    <string name="offline_player_count">%d игроков</string>
+    <string name="offline_word_pack">Набор слов</string>
+    <string name="offline_spies">Количество шпионов</string>
+    <string name="offline_timer">Длительность таймера</string>
+    <string name="offline_start">Начать игру</string>
+    <string name="offline_player_n">Игрок %d</string>
+    <string name="offline_reveal_player">Игрок %1$d из %2$d</string>
+    <string name="offline_pass_to">Передайте телефон игроку %d</string>
+    <string name="offline_tap_to_reveal_role">Нажмите, чтобы увидеть роль</string>
+    <string name="offline_seen_done">Готово — скрыть</string>
+    <string name="offline_next_player">Следующий игрок</string>
+    <string name="offline_all_seen">Все увидели свои роли</string>
+    <string name="offline_start_round">Начать раунд</string>
+    <string name="offline_round_n">Раунд %d</string>
+    <string name="offline_reveal_location">Открыть локацию</string>
+    <string name="offline_end_round">Завершить раунд</string>
+    <string name="offline_mark_eliminated">Нажмите на игрока, чтобы отметить выбывшим</string>
+    <string name="offline_result_title">Раунд завершён</string>
+    <string name="offline_the_location">Локация была</string>
+    <string name="offline_play_again">Играть снова</string>
+    <string name="offline_back_home">На главную</string>
+    <string name="offline_exit_title">Завершить раунд?</string>
+    <string name="offline_exit_message">Текущий раунд закончится и роли будут утеряны. Уверены?</string>
+    <string name="offline_exit_confirm">Завершить</string>
+
+    <!-- How to Play — Offline section -->
+    <string name="how_to_section_offline">Офлайн-режим</string>
+    <string name="offline_intro_title">Один телефон, без интернета</string>
+    <string name="offline_intro_desc">Офлайн-режим позволяет играть в Cipher на одном устройстве. Без WiFi и кодов комнат — просто передавайте телефон.</string>
+    <string name="offline_step_1_title">Настройте игру</string>
+    <string name="offline_step_1_desc">Выберите число игроков (3–10), набор слов, количество шпионов и таймер. Интернет не нужен.</string>
+    <string name="offline_step_2_title">Роли распределены</string>
+    <string name="offline_step_2_desc">Приложение тайно назначает роли — Шпион или Агент — каждому игроку. Вы пока их не увидите.</string>
+    <string name="offline_step_3_title">Передавайте и открывайте</string>
+    <string name="offline_step_3_desc">Передайте телефон Игроку 1. Он нажимает на карту, видит свою роль и нажимает «Готово». Повторите для каждого игрока.</string>
+    <string name="offline_step_4_title">Запустите таймер</string>
+    <string name="offline_step_4_desc">Когда все увидят роли, ведущий запускает таймер. Начинается обсуждение — Агенты ищут Шпиона, Шпион пытается слиться.</string>
+    <string name="offline_step_5_title">Без голосования в приложении</string>
+    <string name="offline_step_5_desc">Голосование и обвинения — устно. Держатель телефона может вручную отметить выбывших игроков.</string>
+    <string name="offline_step_6_title">Откройте локацию</string>
+    <string name="offline_step_6_desc">В конце раунда нажмите «Открыть локацию», чтобы подтвердить секретное место. Затем сыграйте снова или вернитесь на главную.</string>
+
+    <!-- General -->
+    <string name="ok">ОК</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="loading">Загрузка…</string>
+    <string name="retry">Повторить</string>
+    <string name="sound_on">ВКЛ</string>
+    <string name="sound_off">ВЫКЛ</string>
+    <string name="paused">ПАУЗА</string>
+    <string name="invalid_qr_code">Неверный QR-код</string>
+    <string name="need_min_words">Нужно минимум 5 слов</string>
+</resources>

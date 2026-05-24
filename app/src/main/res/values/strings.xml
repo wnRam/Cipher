@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cipher</string>
+    <string name="cipher_subtitle">SOCIAL DEDUCTION</string>
+
+    <!-- Home Screen -->
+    <string name="create_room">Create Room</string>
+    <string name="join_room">Join Room</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+
+    <!-- Profile Screen -->
+    <string name="nickname">Nickname</string>
+    <string name="nickname_hint">Enter your nickname</string>
+    <string name="save_profile">Save</string>
+    <string name="select_avatar">Select Avatar</string>
+    <string name="profile_saved">Profile saved</string>
+    <string name="nickname_too_long">Nickname must be 20 characters or less</string>
+    <string name="nickname_empty">Please enter a nickname</string>
+
+    <!-- Create Room Screen -->
+    <string name="game_rules">Game Rules</string>
+    <string name="words_roles">Words &amp; Roles</string>
+    <string name="timer_duration">Timer Duration</string>
+    <string name="timer_minutes">%d min</string>
+    <string name="win_conditions">Win Conditions</string>
+    <string name="spy_wins_hiding">Spy wins by staying hidden</string>
+    <string name="spy_wins_guessing">Spy wins by guessing the location</string>
+    <string name="number_of_spies">Number of Spies</string>
+    <string name="word_pack">Word Pack</string>
+    <string name="custom_words">Custom Words</string>
+    <string name="custom_words_hint">Enter locations, separated by commas</string>
+    <string name="custom_roles">Custom Roles</string>
+    <string name="role_name">Role Name</string>
+    <string name="role_description">Description</string>
+    <string name="is_spy">Is Spy?</string>
+    <string name="role_count">Count</string>
+    <string name="add_role">Add Role</string>
+    <string name="remove_role">Remove</string>
+    <string name="create_game">Create Room</string>
+    <string name="locations_pack">Locations</string>
+    <string name="food_drink_pack">Food &amp; Drink</string>
+    <string name="sports_pack">Sports</string>
+    <string name="movies_pack">Movies</string>
+    <string name="custom_pack">Custom</string>
+    <string name="room_create_failed">Could not start room. Check WiFi and try again.</string>
+
+    <!-- Lobby Screen -->
+    <string name="room_code">Room Code</string>
+    <string name="scan_to_join">Scan QR to join</string>
+    <string name="players_joined">Players (%d)</string>
+    <string name="start_game">Start Game</string>
+    <string name="min_players_warning">At least 3 players are required</string>
+    <string name="waiting_for_host">Waiting for host…</string>
+    <string name="waiting_for_players">Waiting for players</string>
+    <string name="copy_code">Copy</string>
+    <string name="code_copied">Code copied</string>
+    <string name="host_badge">HOST</string>
+    <string name="you_badge">YOU</string>
+    <string name="kick_player">Kick Player</string>
+    <string name="kick_confirm">Remove %s from the room?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Join Room Screen -->
+    <string name="enter_code">Enter Code</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="enter_room_code">Enter 6-digit room code</string>
+    <string name="joining_room">Joining room…</string>
+    <string name="room_not_found">Room not found</string>
+    <string name="connection_failed">Connection failed. Check WiFi.</string>
+    <string name="camera_permission_needed">Camera permission is required to scan QR codes</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!-- Role Reveal Screen -->
+    <string name="tap_to_reveal">TAP TO REVEAL</string>
+    <string name="classified">CLASSIFIED</string>
+    <string name="your_role">Your Role</string>
+    <string name="location">Location</string>
+    <string name="location_unknown">\?\?\?</string>
+    <string name="seen_my_role">I have seen my role</string>
+    <string name="ready_count">Ready: %1$d / %2$d</string>
+    <string name="pass_to_player">Pass the phone to</string>
+    <string name="im_ready">I am Ready</string>
+    <string name="done_passing">Done, pass the phone</string>
+    <string name="all_roles_revealed">All roles revealed</string>
+
+    <!-- Pass-the-Phone Reveal -->
+    <string name="reveal_header">ROUND %1$d · ROLE REVEAL</string>
+    <string name="hand_off_to">Hand the phone to %1$s</string>
+    <string name="hand_off_warning">Make sure only %1$s is looking at the screen before they tap Continue.</string>
+    <string name="hand_off_self">This is your turn — look at the screen alone before tapping Continue.</string>
+    <string name="im_alone_ready">I\'m ready</string>
+    <string name="player_progress">Player %1$d of %2$d</string>
+    <string name="waiting_for_roles">Waiting for roles to be distributed</string>
+    <string name="waiting_for_roles_subtitle">The host is passing their phone to each player.</string>
+    <string name="reveal_progress_count">%1$d of %2$d players ready</string>
+    <string name="your_role_label">YOUR ROLE</string>
+    <string name="secret_location">SECRET LOCATION</string>
+    <string name="remember_location">Remember this. Do not say it out loud.</string>
+    <string name="your_mission">YOUR MISSION</string>
+    <string name="spy_mission_text">Find out the location without revealing you\'re the Spy</string>
+    <string name="spy_mission_subtext">Ask questions. Blend in. Trust no one.</string>
+    <string name="do_not_show">Do not show this screen to other players.</string>
+    <string name="seen_my_role_countdown">I\'ve seen my role (%1$d)</string>
+    <string name="player_is_ready">%1$s is ready</string>
+    <string name="pass_phone_to_next">Pass the phone to the next player</string>
+    <string name="all_players_ready">All players ready!</string>
+    <string name="all_agents_briefed">All Agents Briefed</string>
+    <string name="all_briefed_subtitle">Every player has received their role. The host may now begin the mission.</string>
+    <string name="begin_mission">Begin Mission</string>
+    <string name="hidden_question_marks">\? \? \? \? \? \?</string>
+
+    <!-- Game Screen -->
+    <string name="round_number">Round %d</string>
+    <string name="call_vote">Call Vote</string>
+    <string name="pause_timer">Pause</string>
+    <string name="resume_timer">Resume</string>
+    <string name="end_round">End Round</string>
+    <string name="time_remaining">Time Remaining</string>
+    <string name="eliminated">Eliminated</string>
+
+    <!-- Voting Screen -->
+    <string name="voting_phase">VOTING</string>
+    <string name="select_suspect">Select the suspect</string>
+    <string name="confirm_vote">Confirm Vote</string>
+    <string name="votes_label">Votes: %d</string>
+    <string name="waiting_for_votes">Waiting for all votes…</string>
+    <string name="vote_timeout">Vote timeout — tallying results</string>
+    <string name="no_elimination">It is a tie. No one is eliminated.</string>
+
+    <!-- Round Result Screen -->
+    <string name="spy_was">THE SPY WAS</string>
+    <string name="spy_escaped">The Spy escaped</string>
+    <string name="the_location_was">The secret location was</string>
+    <string name="players_win">PLAYERS WIN</string>
+    <string name="spy_wins">SPY WINS</string>
+    <string name="spy_last_chance">Spy\'s Last Chance</string>
+    <string name="guess_location">Guess the location to steal the win</string>
+    <string name="correct_guess">Correct! Spy steals the win</string>
+    <string name="wrong_guess">Wrong guess</string>
+    <string name="next_round">Next Round</string>
+    <string name="back_to_lobby">Back to Lobby</string>
+    <string name="end_game">End Game</string>
+    <string name="points_earned">+%d pts</string>
+
+    <!-- Scoreboard Screen -->
+    <string name="scoreboard">Scoreboard</string>
+    <string name="rank">Rank</string>
+    <string name="player_name">Player</string>
+    <string name="score">Score</string>
+    <string name="round_history">Round History</string>
+    <string name="play_again">Play Again</string>
+    <string name="new_game">New Game</string>
+
+    <!-- How to Play -->
+    <string name="how_to_hero_tagline">Decode the rules. Deceive your friends.</string>
+    <string name="how_to_section_game">How to Play the Game</string>
+    <string name="how_to_section_create_join">How to Create or Join a Room</string>
+    <string name="how_to_section_create">Create a Room</string>
+    <string name="how_to_section_join">Join a Room</string>
+
+    <string name="play_step_1_title">Roles Assigned</string>
+    <string name="play_step_1_desc">Each round, roles are dealt in secret. Agents see the location. The Spy sees nothing.</string>
+    <string name="play_step_2_title">Discussion Begins</string>
+    <string name="play_step_2_desc">Players ask each other questions. Stay vague enough to hide, sharp enough to expose.</string>
+    <string name="play_step_3_title">Call the Vote</string>
+    <string name="play_step_3_desc">Any player can call a vote. The accused is eliminated and their role revealed.</string>
+    <string name="play_step_4_title">The Spy\'s Move</string>
+    <string name="play_step_4_desc">If hidden until time runs out — or if they correctly guess the location — the Spy wins.</string>
+    <string name="play_step_5_title">Catch the Spy</string>
+    <string name="play_step_5_desc">If the agents identify the Spy before the timer expires, the players take the round.</string>
+
+    <string name="create_step_1_title">Set Your Nickname</string>
+    <string name="create_step_1_desc">Choose how you appear to other operatives in the lobby.</string>
+    <string name="create_step_2_title">Choose Settings</string>
+    <string name="create_step_2_desc">Timer, win conditions and the word pack are all yours to define.</string>
+    <string name="create_step_3_title">Share Code or QR</string>
+    <string name="create_step_3_desc">Hand the 6-digit code or QR to your friends. They join over WiFi.</string>
+    <string name="create_step_4_title">Wait for Players</string>
+    <string name="create_step_4_desc">Watch operatives appear in the lobby. Minimum three to deploy.</string>
+    <string name="create_step_5_title">Start the Game</string>
+    <string name="create_step_5_desc">When the team is ready, drop the hammer and begin.</string>
+
+    <string name="join_step_1_title">Set Your Nickname</string>
+    <string name="join_step_1_desc">Pick a callsign before joining the operation.</string>
+    <string name="join_step_2_title">Enter Code or Scan QR</string>
+    <string name="join_step_2_desc">Type the 6-digit code or scan your host\'s QR to connect.</string>
+    <string name="join_step_3_title">Wait in the Lobby</string>
+    <string name="join_step_3_desc">You will see other agents arrive. The host runs the show.</string>
+    <string name="join_step_4_title">Game Starts Automatically</string>
+    <string name="join_step_4_desc">As soon as the host launches the round, you are in.</string>
+
+    <!-- Settings Screen -->
+    <string name="dark_theme">Dark Theme</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="theme">Theme</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="language">Language</string>
+    <string name="app_version">App Version</string>
+    <string name="version_format">Version %s</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_uzbek">O\'zbek</string>
+
+    <!-- Errors -->
+    <string name="player_disconnected">%s left the game</string>
+    <string name="host_disconnected">Host left — game ended</string>
+    <string name="return_home">Return to Home</string>
+    <string name="no_wifi">Connect to WiFi to play with others</string>
+    <string name="network_error">Network error occurred</string>
+    <string name="generic_error">Something went wrong</string>
+    <string name="min_3_players">At least 3 players are required</string>
+
+    <!-- Roles -->
+    <string name="role_spy">Spy</string>
+    <string name="role_spy_desc">You do not know the location. Blend in.</string>
+    <string name="role_agent">Agent</string>
+    <string name="role_agent_desc">You know the location. Find the Spy.</string>
+    <string name="role_new">New Role</string>
+    <string name="custom_pack_name">Custom</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode">Offline Mode</string>
+    <string name="offline_setup_title">Offline Mode</string>
+    <string name="offline_players">Players</string>
+    <string name="offline_player_count">%d Players</string>
+    <string name="offline_word_pack">Word Pack</string>
+    <string name="offline_spies">Number of Spies</string>
+    <string name="offline_timer">Timer Duration</string>
+    <string name="offline_start">Start Game</string>
+    <string name="offline_player_n">Player %d</string>
+    <string name="offline_reveal_player">Player %1$d of %2$d</string>
+    <string name="offline_pass_to">Pass the phone to Player %d</string>
+    <string name="offline_tap_to_reveal_role">Tap to reveal your role</string>
+    <string name="offline_seen_done">Done — Hide</string>
+    <string name="offline_next_player">Next Player</string>
+    <string name="offline_all_seen">Everyone has seen their role</string>
+    <string name="offline_start_round">Start Round</string>
+    <string name="offline_round_n">Round %d</string>
+    <string name="offline_reveal_location">Reveal Location</string>
+    <string name="offline_end_round">End Round</string>
+    <string name="offline_mark_eliminated">Tap a player to mark eliminated</string>
+    <string name="offline_result_title">Round Complete</string>
+    <string name="offline_the_location">The location was</string>
+    <string name="offline_play_again">Play Again</string>
+    <string name="offline_back_home">Back to Home</string>
+    <string name="offline_exit_title">End the round?</string>
+    <string name="offline_exit_message">The current round will end and roles will be lost. Are you sure?</string>
+    <string name="offline_exit_confirm">End Round</string>
+
+    <!-- How to Play — Offline section -->
+    <string name="how_to_section_offline">Offline Mode</string>
+    <string name="offline_intro_title">One Phone, No Internet</string>
+    <string name="offline_intro_desc">Offline Mode lets you play Cipher with a single device. No WiFi, no room codes — just pass the phone around.</string>
+    <string name="offline_step_1_title">Set Up the Game</string>
+    <string name="offline_step_1_desc">Choose how many players (3–10), pick a word pack, set the number of spies, and set the timer. No network needed.</string>
+    <string name="offline_step_2_title">Roles Are Assigned</string>
+    <string name="offline_step_2_desc">The app secretly assigns roles — Spy or Agent — to each player slot. You won\'t see them yet.</string>
+    <string name="offline_step_3_title">Pass and Reveal</string>
+    <string name="offline_step_3_desc">Pass the phone to Player 1. They tap the card to flip it and see their role privately, then tap Done. Repeat for every player.</string>
+    <string name="offline_step_4_title">Start the Timer</string>
+    <string name="offline_step_4_desc">Once everyone has seen their role, the host starts the timer. Discussion begins — Agents try to find the Spy, the Spy tries to blend in.</string>
+    <string name="offline_step_5_title">No In-App Voting</string>
+    <string name="offline_step_5_desc">Voting and accusations happen verbally. The phone holder can manually mark eliminated players on the game screen.</string>
+    <string name="offline_step_6_title">Reveal the Location</string>
+    <string name="offline_step_6_desc">At the end of the round, tap \'Reveal Location\' to confirm the secret location. Then play again or go back to the home screen.</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="sound_on">ON</string>
+    <string name="sound_off">OFF</string>
+    <string name="paused">PAUSED</string>
+    <string name="invalid_qr_code">Invalid QR code</string>
+    <string name="need_min_words">Need at least 5 words</string>
+</resources>

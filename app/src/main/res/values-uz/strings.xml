@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cipher</string>
+    <string name="cipher_subtitle">IJTIMOIY DEDUKSIYA</string>
+
+    <!-- Home Screen -->
+    <string name="create_room">Xona yaratish</string>
+    <string name="join_room">Qo\'shilish</string>
+    <string name="how_to_play">Qanday o\'ynaladi</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="profile">Profil</string>
+
+    <!-- Profile Screen -->
+    <string name="nickname">Taxallus</string>
+    <string name="nickname_hint">Taxallusingizni kiriting</string>
+    <string name="save_profile">Saqlash</string>
+    <string name="select_avatar">Avatarni tanlang</string>
+    <string name="profile_saved">Profil saqlandi</string>
+    <string name="nickname_too_long">Taxallus 20 belgidan oshmasligi kerak</string>
+    <string name="nickname_empty">Taxallus kiriting</string>
+
+    <!-- Create Room Screen -->
+    <string name="game_rules">O\'yin qoidalari</string>
+    <string name="words_roles">So\'zlar va rollar</string>
+    <string name="timer_duration">Taymer davomiyligi</string>
+    <string name="timer_minutes">%d daq</string>
+    <string name="win_conditions">G\'alaba shartlari</string>
+    <string name="spy_wins_hiding">Josus yashirinib g\'alaba qozonadi</string>
+    <string name="spy_wins_guessing">Josus joyni topib g\'alaba qozonadi</string>
+    <string name="number_of_spies">Josuslar soni</string>
+    <string name="word_pack">So\'zlar to\'plami</string>
+    <string name="custom_words">Maxsus so\'zlar</string>
+    <string name="custom_words_hint">Joylarni vergul bilan ajrating</string>
+    <string name="custom_roles">Maxsus rollar</string>
+    <string name="role_name">Rol nomi</string>
+    <string name="role_description">Tavsif</string>
+    <string name="is_spy">Josusmi?</string>
+    <string name="role_count">Soni</string>
+    <string name="add_role">Rol qo\'shish</string>
+    <string name="remove_role">O\'chirish</string>
+    <string name="create_game">Xona yaratish</string>
+    <string name="locations_pack">Joylar</string>
+    <string name="food_drink_pack">Taom va ichimliklar</string>
+    <string name="sports_pack">Sport</string>
+    <string name="movies_pack">Filmlar</string>
+    <string name="custom_pack">Maxsus</string>
+    <string name="room_create_failed">Xona ochilmadi. WiFi ni tekshiring.</string>
+
+    <!-- Lobby Screen -->
+    <string name="room_code">Xona kodi</string>
+    <string name="scan_to_join">QR skanerlang</string>
+    <string name="players_joined">O\'yinchilar (%d)</string>
+    <string name="start_game">O\'yinni boshlash</string>
+    <string name="min_players_warning">Kamida 3 ta o\'yinchi kerak</string>
+    <string name="waiting_for_host">Xost kutilmoqda…</string>
+    <string name="waiting_for_players">O\'yinchilar kutilmoqda</string>
+    <string name="copy_code">Nusxa olish</string>
+    <string name="code_copied">Kod nusxalandi</string>
+    <string name="host_badge">XOST</string>
+    <string name="you_badge">SIZ</string>
+    <string name="kick_player">O\'yinchini chiqarish</string>
+    <string name="kick_confirm">%s ni xonadan chiqarasizmi?</string>
+    <string name="yes">Ha</string>
+    <string name="no">Yo\'q</string>
+    <string name="cancel">Bekor qilish</string>
+
+    <!-- Join Room Screen -->
+    <string name="enter_code">Kod kiriting</string>
+    <string name="scan_qr">QR skanerlash</string>
+    <string name="enter_room_code">6 xonali kodni kiriting</string>
+    <string name="joining_room">Ulanmoqda…</string>
+    <string name="room_not_found">Xona topilmadi</string>
+    <string name="connection_failed">Ulanish xatosi. WiFi ni tekshiring.</string>
+    <string name="camera_permission_needed">QR skanerlash uchun kamera ruxsati kerak</string>
+    <string name="grant_permission">Ruxsat berish</string>
+    <string name="open_settings">Sozlamalarni ochish</string>
+
+    <!-- Role Reveal Screen -->
+    <string name="tap_to_reveal">OCHISH UCHUN BOSING</string>
+    <string name="classified">MAXFIY</string>
+    <string name="your_role">Sizning rolingiz</string>
+    <string name="location">Joy</string>
+    <string name="location_unknown">\?\?\?</string>
+    <string name="seen_my_role">Rolimni ko\'rdim</string>
+    <string name="ready_count">Tayyor: %1$d / %2$d</string>
+    <string name="pass_to_player">Telefonni uzating</string>
+    <string name="im_ready">Tayyorman</string>
+    <string name="done_passing">Tayyor, telefonni uzatyapman</string>
+    <string name="all_roles_revealed">Barcha rollar ochildi</string>
+
+    <!-- Pass-the-Phone Reveal -->
+    <string name="reveal_header">RAUND %1$d · ROLLARNI OCHISH</string>
+    <string name="hand_off_to">Telefonni %1$s ga uzating</string>
+    <string name="hand_off_warning">Davom etishdan oldin faqat %1$s ekranga qarayotganiga ishonch hosil qiling.</string>
+    <string name="hand_off_self">Sizning navbatingiz — ekranga yolg\'iz qarang va davom eting.</string>
+    <string name="im_alone_ready">Tayyorman</string>
+    <string name="player_progress">%2$d dan %1$d o\'yinchi</string>
+    <string name="waiting_for_roles">Rollar taqsimlanishi kutilmoqda</string>
+    <string name="waiting_for_roles_subtitle">Xost telefonni har bir o\'yinchiga uzatmoqda.</string>
+    <string name="reveal_progress_count">%2$d dan %1$d ta tayyor</string>
+    <string name="your_role_label">SIZNING ROLINGIZ</string>
+    <string name="secret_location">MAXFIY JOY</string>
+    <string name="remember_location">Eslab qoling. Ovoz chiqarib aytmang.</string>
+    <string name="your_mission">VAZIFANGIZ</string>
+    <string name="spy_mission_text">Josus ekanligingizni bildirmasdan joyni aniqlang</string>
+    <string name="spy_mission_subtext">Savol bering. Yashiring. Hech kimga ishonmang.</string>
+    <string name="do_not_show">Bu ekranni boshqa o\'yinchilarga ko\'rsatmang.</string>
+    <string name="seen_my_role_countdown">Rolimni ko\'rdim (%1$d)</string>
+    <string name="player_is_ready">%1$s tayyor</string>
+    <string name="pass_phone_to_next">Telefonni keyingi o\'yinchiga uzating</string>
+    <string name="all_players_ready">Barcha o\'yinchilar tayyor!</string>
+    <string name="all_agents_briefed">Barcha agentlar tayyor</string>
+    <string name="all_briefed_subtitle">Barcha o\'yinchilar rolini oldi. Xost missiyani boshlashi mumkin.</string>
+    <string name="begin_mission">Missiyani boshlash</string>
+    <string name="hidden_question_marks">\? \? \? \? \? \?</string>
+
+    <!-- Game Screen -->
+    <string name="round_number">Raund %d</string>
+    <string name="call_vote">Ovoz berish</string>
+    <string name="pause_timer">Pauza</string>
+    <string name="resume_timer">Davom etish</string>
+    <string name="end_round">Raundni tugatish</string>
+    <string name="time_remaining">Qolgan vaqt</string>
+    <string name="eliminated">Chiqarildi</string>
+
+    <!-- Voting Screen -->
+    <string name="voting_phase">OVOZ BERISH</string>
+    <string name="select_suspect">Gumonlanuvchini tanlang</string>
+    <string name="confirm_vote">Tasdiqlash</string>
+    <string name="votes_label">Ovozlar: %d</string>
+    <string name="waiting_for_votes">Ovozlar kutilmoqda…</string>
+    <string name="vote_timeout">Vaqt tugadi — natijalar hisoblanmoqda</string>
+    <string name="no_elimination">Durrang. Hech kim chiqarilmaydi.</string>
+
+    <!-- Round Result Screen -->
+    <string name="spy_was">JOSUS</string>
+    <string name="spy_escaped">Josus qochdi</string>
+    <string name="the_location_was">Maxfiy joy</string>
+    <string name="players_win">O\'YINCHILAR G\'OLIB</string>
+    <string name="spy_wins">JOSUS G\'OLIB</string>
+    <string name="spy_last_chance">Josusning oxirgi imkoniyati</string>
+    <string name="guess_location">G\'alaba uchun joyni toping</string>
+    <string name="correct_guess">To\'g\'ri. Josus g\'olib</string>
+    <string name="wrong_guess">Noto\'g\'ri</string>
+    <string name="next_round">Keyingi raund</string>
+    <string name="back_to_lobby">Lobbiga qaytish</string>
+    <string name="end_game">O\'yinni tugatish</string>
+    <string name="points_earned">+%d ball</string>
+
+    <!-- Scoreboard Screen -->
+    <string name="scoreboard">Natijalar jadvali</string>
+    <string name="rank">O\'rin</string>
+    <string name="player_name">O\'yinchi</string>
+    <string name="score">Ball</string>
+    <string name="round_history">Raundlar tarixi</string>
+    <string name="play_again">Qayta o\'ynash</string>
+    <string name="new_game">Yangi o\'yin</string>
+
+    <!-- How to Play -->
+    <string name="how_to_hero_tagline">Qoidalarni oching. Do\'stlaringizni aldang.</string>
+    <string name="how_to_section_game">O\'yin qanday o\'ynaladi</string>
+    <string name="how_to_section_create_join">Xona ochish yoki qo\'shilish</string>
+    <string name="how_to_section_create">Xona yaratish</string>
+    <string name="how_to_section_join">Xonaga kirish</string>
+
+    <string name="play_step_1_title">Rollar taqsimlandi</string>
+    <string name="play_step_1_desc">Har raundda rollar yashirin tarqatiladi. Agentlar joyni biladi. Josus hech narsa ko\'rmaydi.</string>
+    <string name="play_step_2_title">Muhokama boshlanadi</string>
+    <string name="play_step_2_desc">O\'yinchilar bir-biriga savol beradi. Yashiringin, lekin bilishingizni ko\'rsating.</string>
+    <string name="play_step_3_title">Ovoz berishni boshlang</string>
+    <string name="play_step_3_desc">Har qanday o\'yinchi ovozni boshlashi mumkin. Ayblangan chiqariladi, roli ochiladi.</string>
+    <string name="play_step_4_title">Josusning yo\'li</string>
+    <string name="play_step_4_desc">Yashiringan yoki joyni topgan josus g\'alaba qozonadi.</string>
+    <string name="play_step_5_title">Josusni toping</string>
+    <string name="play_step_5_desc">Agar agentlar taymergacha josusni topsa — o\'yinchilar g\'olib.</string>
+
+    <string name="create_step_1_title">Taxallus o\'rnating</string>
+    <string name="create_step_1_desc">Lobbida qanday ko\'rinishni tanlang.</string>
+    <string name="create_step_2_title">Sozlamalarni tanlang</string>
+    <string name="create_step_2_desc">Taymer, shartlar va so\'zlar to\'plami siz uchun.</string>
+    <string name="create_step_3_title">Kod yoki QR ulashish</string>
+    <string name="create_step_3_desc">6 xonali kod yoki QR ni do\'stlarga bering. Ular WiFi orqali qo\'shiladi.</string>
+    <string name="create_step_4_title">O\'yinchilarni kuting</string>
+    <string name="create_step_4_desc">O\'yinchilar lobbida paydo bo\'ladi. Boshlash uchun kamida 3 ta.</string>
+    <string name="create_step_5_title">O\'yinni boshlang</string>
+    <string name="create_step_5_desc">Hamma tayyor bo\'lganda — boshlang.</string>
+
+    <string name="join_step_1_title">Taxallus o\'rnating</string>
+    <string name="join_step_1_desc">Operatsiyadan oldin chaqiruv tanlang.</string>
+    <string name="join_step_2_title">Kod yoki QR</string>
+    <string name="join_step_2_desc">6 xonali kodni kiriting yoki xost QR ni skanerlang.</string>
+    <string name="join_step_3_title">Lobbida kuting</string>
+    <string name="join_step_3_desc">Boshqa agentlar paydo bo\'ladi. Xost o\'yinni boshlaydi.</string>
+    <string name="join_step_4_title">O\'yin avtomatik boshlanadi</string>
+    <string name="join_step_4_desc">Xost raundni ishga tushirsa — siz o\'yindasiz.</string>
+
+    <!-- Settings Screen -->
+    <string name="dark_theme">Qorong\'u mavzu</string>
+    <string name="light_theme">Yorug\' mavzu</string>
+    <string name="theme">Mavzu</string>
+    <string name="sound_effects">Ovoz effektlari</string>
+    <string name="language">Til</string>
+    <string name="app_version">Ilova versiyasi</string>
+    <string name="version_format">Versiya %s</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_uzbek">O\'zbek</string>
+
+    <!-- Errors -->
+    <string name="player_disconnected">%s o\'yindan chiqdi</string>
+    <string name="host_disconnected">Xost chiqdi — o\'yin tugadi</string>
+    <string name="return_home">Bosh sahifaga</string>
+    <string name="no_wifi">O\'ynash uchun WiFi ga ulaning</string>
+    <string name="network_error">Tarmoq xatosi</string>
+    <string name="generic_error">Xatolik yuz berdi</string>
+    <string name="min_3_players">Kamida 3 ta o\'yinchi kerak</string>
+
+    <!-- Roles -->
+    <string name="role_spy">Josus</string>
+    <string name="role_spy_desc">Siz joyni bilmaysiz. O\'zingizni bildirmang.</string>
+    <string name="role_agent">Agent</string>
+    <string name="role_agent_desc">Siz joyni bilasiz. Josusni toping.</string>
+    <string name="role_new">Yangi rol</string>
+    <string name="custom_pack_name">O\'zim</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode">Oflayn rejim</string>
+    <string name="offline_setup_title">Oflayn rejim</string>
+    <string name="offline_players">O\'yinchilar</string>
+    <string name="offline_player_count">%d o\'yinchi</string>
+    <string name="offline_word_pack">So\'zlar to\'plami</string>
+    <string name="offline_spies">Josuslar soni</string>
+    <string name="offline_timer">Taymer davomiyligi</string>
+    <string name="offline_start">O\'yinni boshlash</string>
+    <string name="offline_player_n">O\'yinchi %d</string>
+    <string name="offline_reveal_player">%2$d dan %1$d o\'yinchi</string>
+    <string name="offline_pass_to">Telefonni %d-o\'yinchiga uzating</string>
+    <string name="offline_tap_to_reveal_role">Rolingizni ko\'rish uchun bosing</string>
+    <string name="offline_seen_done">Tayyor — yashirish</string>
+    <string name="offline_next_player">Keyingi o\'yinchi</string>
+    <string name="offline_all_seen">Hamma rolini ko\'rdi</string>
+    <string name="offline_start_round">Raundni boshlash</string>
+    <string name="offline_round_n">Raund %d</string>
+    <string name="offline_reveal_location">Joyni ko\'rsatish</string>
+    <string name="offline_end_round">Raundni tugatish</string>
+    <string name="offline_mark_eliminated">O\'yinchini chiqarish uchun bosing</string>
+    <string name="offline_result_title">Raund tugadi</string>
+    <string name="offline_the_location">Joy edi</string>
+    <string name="offline_play_again">Qayta o\'ynash</string>
+    <string name="offline_back_home">Bosh sahifaga</string>
+    <string name="offline_exit_title">Raundni tugatasizmi?</string>
+    <string name="offline_exit_message">Joriy raund tugaydi va rollar yo\'qoladi. Ishonchingiz komilmi?</string>
+    <string name="offline_exit_confirm">Tugatish</string>
+
+    <!-- How to Play — Offline section -->
+    <string name="how_to_section_offline">Oflayn rejim</string>
+    <string name="offline_intro_title">Bitta telefon, internetsiz</string>
+    <string name="offline_intro_desc">Oflayn rejim Cipher\'ni bitta qurilmada o\'ynash imkonini beradi. WiFi va xona kodlarisiz — shunchaki telefonni uzating.</string>
+    <string name="offline_step_1_title">O\'yinni sozlang</string>
+    <string name="offline_step_1_desc">O\'yinchilar sonini (3–10), so\'zlar to\'plamini, josuslar sonini va taymerni tanlang. Tarmoq kerak emas.</string>
+    <string name="offline_step_2_title">Rollar taqsimlandi</string>
+    <string name="offline_step_2_desc">Ilova har bir o\'yinchiga yashirin tarzda rol — Josus yoki Agent — beradi. Siz ularni hali ko\'rmaysiz.</string>
+    <string name="offline_step_3_title">Uzating va oching</string>
+    <string name="offline_step_3_desc">Telefonni 1-o\'yinchiga uzating. U kartani bosib rolini ko\'radi, so\'ng «Tayyor» tugmasini bosadi. Har bir o\'yinchi uchun takrorlang.</string>
+    <string name="offline_step_4_title">Taymerni ishga tushiring</string>
+    <string name="offline_step_4_desc">Hamma rolini ko\'rgach, xost taymerni ishga tushiradi. Muhokama boshlanadi — Agentlar Josusni qidiradi, Josus yashirinmoqchi bo\'ladi.</string>
+    <string name="offline_step_5_title">Ilovada ovoz berish yo\'q</string>
+    <string name="offline_step_5_desc">Ovoz berish va ayblovlar og\'zaki bo\'ladi. Telefonni ushlab turgan kishi chiqarilgan o\'yinchilarni qo\'lda belgilashi mumkin.</string>
+    <string name="offline_step_6_title">Joyni oching</string>
+    <string name="offline_step_6_desc">Raund oxirida maxfiy joyni tasdiqlash uchun «Joyni ko\'rsatish» tugmasini bosing. So\'ng qayta o\'ynang yoki bosh sahifaga qayting.</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="confirm">Tasdiqlash</string>
+    <string name="loading">Yuklanmoqda…</string>
+    <string name="retry">Qayta urinish</string>
+    <string name="sound_on">YOQILGAN</string>
+    <string name="sound_off">O\'CHIRILGAN</string>
+    <string name="paused">PAUZA</string>
+    <string name="invalid_qr_code">QR kod noto\'g\'ri</string>
+    <string name="need_min_words">Kamida 5 ta so\'z kerak</string>
+</resources>
